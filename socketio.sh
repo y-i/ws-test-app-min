@@ -1,6 +1,7 @@
 #!/bin/sh
 
 mkdir -p /ops/socketio
+cp ./index.html /ops/socketio
 cd /ops/socketio
 
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
